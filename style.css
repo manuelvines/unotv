@@ -26,12 +26,10 @@ h2{
 
 }
 p{
-
     font-weight: 400;
     font-size: 0.8em;
     color: #FFFFFF;
     font-family: ExoLight;
-
 }
 a{
 
@@ -222,12 +220,21 @@ footer span{
     }
 
     #main-count div{
- 
         width: 80px;
         height: 80px;
-
     }
     #main-count div p{
      font-size: 1em;
+    }
+}
+
+/*CELULAR XS*/
+@media only screen and (max-width: 360px) {
+    #main-count div p{
+        font-size: 0.8em;
+    }
+    #main-count div{
+        width: 65px;
+        height: 65px;
     }
 }
